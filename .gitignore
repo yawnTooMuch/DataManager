@@ -1,14 +1,24 @@
-# A fast, small, safe, gradually typed embeddable scripting language derived from Lua
-#
-# https://github.com/luau-lang/luau
-# https://luau.org/
+# 1. Block Roblox Game Files (Heavy binaries/XML)
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+*.lock
 
-# Code coverage
-coverage.out
+# 2. Block Auto-Saves and Backups
+*_AutoSave.rbxl
+*.rbxmx.lock
 
-# Profiling
-profile.out
-profile.svg
+# 3. Block System Junk
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Time trace
-trace.json
+# 4. Block Editor Settings (Keep your personal config private)
+.vscode/
+.idea/
+*.sublime-workspace
+
+# 5. Block Archives
+*.zip
+*.tar.gz
